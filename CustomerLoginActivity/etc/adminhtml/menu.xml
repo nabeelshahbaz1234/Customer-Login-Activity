@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Pixafy_CustomerLoginActivity::key1" title="Customer Visits" module="Pixafy_CustomerLoginActivity"
+             sortOrder="10"
+             resource="Pixafy_CustomerLoginActivity::key1"/>
+        <add id="Pixafy_CustomerLoginActivity::key2" title="View Logs" module="Pixafy_CustomerLoginActivity"
+             parent="Pixafy_CustomerLoginActivity::key1" sortOrder="10" action="customer_activity/visit/index"
+             resource="Pixafy_CustomerLoginActivity::key2"/>
+    </menu>
+</config>
